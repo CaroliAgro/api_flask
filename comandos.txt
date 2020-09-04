@@ -1,0 +1,42 @@
+pip install pipenv
+pipenv shell 
+pipenv install flask
+cria app.py
+
+python app.py
+
+pipenv install Flask-SQLAlchemy
+
+criar pasta database
+
+sqlite3 database/tasks.db
+.databases
+.exit
+
+cria pasta templates index.html  html5 em arquivo index
+
+bostrapwatch copy link
+
+
+sqlite3 database/tasks.db
+.tables
+
+Terminal python
+from app import db
+db.create_all() #Cria a tabela 
+somente com task = Task(content=request.form['content'], done=False)
+exit()
+
+pip freeze > requirements.txt
+
+
+criar arquivo Procfile
+git init
+git add .
+git commit -m "Teste"
+
+heroku login
+
+heroku apps:create tar02
+
+git push heroku master
